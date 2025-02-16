@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+}
+.sidebar {
+    background: white;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: start;
+    text-align: left;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+.chat-area  {
+    background: #E8EBE4;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.chat-area img {
+    width: 400px;
+    margin-bottom: 20px;
+}
+.button {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    background: #A491D2;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin:  20px auto;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+}
+.contact img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
